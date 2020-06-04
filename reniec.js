@@ -8,6 +8,7 @@ const RENIEC = {
       "condicion": "NORMAL",
       "img": "hola",
       "edad": "18",
+      "cobra":"No es beneficiario para cobrar el bono!",
       "fecnac": [{
         "dia": "8",
         "mes": "10",
@@ -22,6 +23,7 @@ const RENIEC = {
       "condicion": "PAMAR",
       "img": "hola",
       "edad": "92",
+      "cobra":"No es beneficiario para cobrar el bono!",
       "fecnac": [{
         "dia": "02",
         "mes": "05",
@@ -36,6 +38,7 @@ const RENIEC = {
       "condicion": "PDC",
       "img": "hola",
       "edad": "80",
+      "cobra":"Si es beneficiario para cobrar el bono!",
       "fecnac": [{
         "dia": "04",
         "mes": "02",
@@ -50,6 +53,7 @@ const RENIEC = {
       "condicion": "PDC",
       "img": "hola",
       "edad": "42",
+      "cobra":"Si es beneficiario para cobrar el bono!",
       "fecnac": [{
         "dia": "09",
         "mes": "07",
@@ -64,6 +68,7 @@ const RENIEC = {
       "condicion": "NORMAL",
       "img": "hola",
       "edad": "20",
+      "cobra":"No es beneficiario para cobrar el bono!",
       "fecnac": [{
         "dia": "07",
         "mes": "08",
@@ -78,6 +83,7 @@ const RENIEC = {
       "condicion": "NORMAL",
       "img": "hola",
       "edad": "25",
+      "cobra":"Si es beneficiario para cobrar el bono!",
       "fecnac": [{
         "dia": "02",
         "mes": "03",
