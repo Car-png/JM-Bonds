@@ -2,6 +2,7 @@ const ren = RENIEC.poblacion;
 const dnis = document.getElementById('dni');
 const btnConsultar = document.getElementById('btnConsultar');
 const sn = document.getElementById('sn');
+const emitionDNI = document.getElementById('EmitionDNI');
 console.log(ren);
 
 
@@ -35,5 +36,8 @@ btnConsultar.addEventListener('click', (e)=>{
     //      sn.innerHTML="Usted no recibe bono";
     // }
    showPerson(searchOnLive(ren,"dni", dnis.value.charAt(0).toUpperCase() + dnis.value.slice(1)));
+
+   dnis.value="";
+   emitionDNI.value="";
 
 });
