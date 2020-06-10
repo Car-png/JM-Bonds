@@ -1,11 +1,10 @@
-/* *{
-      padding: 0;
-      margin: 0;
-} */
+html{
+      scroll-behavior: smooth;
+}
+
 
 body{
-      background: linear-gradient(to right, rgba(92, 1, 1, 0.842), rgba(0, 1, 83, 0.877));
-      color: white;
+      /* background: linear-gradient(to right, rgba(92, 1, 1, 0.842), rgba(0, 1, 83, 0.877)); */
 }
 
 @font-face{
@@ -13,8 +12,45 @@ body{
       src: url(PermanentMarker-Regular.ttf);
 }
 
+/* Contenedor Padre */
+.container{
+      background-color: red;
+      height: 100vh;
+}
+
+/* Contenedor Hijo I */
+.cont-top{
+      background-color: blue;
+      display: flex;
+      padding: 18px;
+      justify-content: center;
+}
+.cont-lbl-left{
+      background-color: cyan;
+}
+.cont-lbl-middle{
+      background-color: darkgoldenrod;
+}
+.Gob-Peru{
+      width: 100px;
+      height: 50px;
+      background-color: darkgray;
+}
+
+
+/* Contenedor Hijo 2 */
+.cont-middle{
+      background-color: green;
+      display: flex;
+}
+.left{
+      background-color: darkred;
+}
+.right{
+      background-color: darkslategray;
+}
 .Consult{
-      color:  white;
+      color:  black;
       width: 100px;
       letter-spacing: 2px;
       box-shadow: 0 2px 2px -2px;
@@ -25,6 +61,18 @@ body{
       background-color: transparent;
 }
 
+/* Contenedor Hijo 3 */
+.cont-down{
+      background-color: purple;
+}
+
+/* Contenedor Diseño de DNI */
+.container-draw-DNI{
+      display: none;
+      background-color: indianred;
+}
+
+/* Contenedor de resultado */
 .cont-result{
       display: none;
       /* display: flex; */
