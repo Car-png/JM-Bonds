@@ -15,7 +15,7 @@ body{
 /* Contenedor Padre */
 .container{
       background-color: red;
-      height: 100vh;
+      min-height: 100vh;
 }
 
 /* Contenedor Hijo I */
@@ -23,16 +23,18 @@ body{
       background-color: blue;
       display: flex;
       padding: 18px;
-      justify-content: center;
+      justify-content: space-between;
 }
 .cont-lbl-left{
       background-color: cyan;
 }
+
 .cont-lbl-middle{
       background-color: darkgoldenrod;
 }
+
 .Gob-Peru{
-      width: 100px;
+      width: 200px;
       height: 50px;
       background-color: darkgray;
 }
@@ -46,16 +48,70 @@ body{
 .left{
       background-color: darkred;
 }
+.cont-img{
+      background-color: cyan;
+}
+.Warning-Icon{
+      background-color: red;
+}
+.cont-lblwarning{
+      background-color: deeppink;
+}
+
 .right{
       background-color: darkslategray;
+      text-align: center;
+}
+.cont-consult{
+      background-color: red;
+      padding: 10px;
+      font-size: 28px;
+      font-family: sans-serif;
+      letter-spacing: 1px;
+      color: white;
+}
+.cont-instructions{
+      background-color: bisque;
+      padding: 10px;
+      text-align: center;
+      
+}
+.tuto{
+      color: red;
+}
+.cont-input-Dni{
+      background-color: blue;
+}
+.user-icon{
+      width: 30px;
+      height: 30px;
+      background-color: red;
+}
+.cont-input-date-emition-DNI{
+      background-color: blueviolet;
+}
+.date-icon{
+      width: 30px;
+      height: 30px;
+}
+.sign-Question{
+      width: 20px;
+      height: 20px;
+}
+.show-date-emition-DNI{
+      background-color: chocolate;
+      color: white;
+}
+.cont-btn-Consult{
+      background-color: yellow;
 }
 .Consult{
-      color:  black;
+      /* color:  black;
       width: 100px;
       letter-spacing: 2px;
       box-shadow: 0 2px 2px -2px;
       font-family: 'JCardenas';
-      cursor: pointer;
+      cursor: pointer; */
 }
 .Consult::selection{
       background-color: transparent;
@@ -64,6 +120,23 @@ body{
 /* Contenedor Hijo 3 */
 .cont-down{
       background-color: purple;
+      display: flex;
+}
+.cont-img-peru{
+      background-color: darkturquoise;
+      display: flex;
+}
+.Minis{
+      width: 100px;
+      height: 50px;
+}
+.cont-img-Reniec-Peru{
+      background-color: deeppink;
+      display: flex;
+}
+.Logo-Reniec, .Logo-Peru-Prim{
+      width: 100px;
+      height: 50px;
 }
 
 /* Contenedor Diseño de DNI */
