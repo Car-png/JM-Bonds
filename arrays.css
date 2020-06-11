@@ -22,21 +22,43 @@ body{
 .cont-top{
       background-color: blue;
       display: flex;
-      padding: 18px;
+      padding: 5px;
       justify-content: space-between;
 }
 .cont-lbl-left{
       background-color: cyan;
+      display: flex;
+      text-align: center;
+      align-items: center;
+}
+.Subsidio-Mentario{
+      font-size: 28px;
+      font-family: 'JCardenas';
+      opacity: 0.8;
 }
 
 .cont-lbl-middle{
       background-color: darkgoldenrod;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      width: 550px;
+      justify-content: space-between;
+}
+.lbl-middle{
+      background-color: red;
+      font-size: 28px;
+      font-family: 'JCardenas';
+      opacity: 0.8;
+}
+.cont-lbl-right{
+      border-left: 1px solid black;
+      border-bottom: 1px solid black;
 }
 
 .Gob-Peru{
-      width: 200px;
+      width: 220px;
       height: 50px;
-      background-color: darkgray;
 }
 
 
@@ -47,23 +69,38 @@ body{
 }
 .left{
       background-color: darkred;
+      width: 700px;
 }
 .cont-img{
       background-color: cyan;
+      display: flex;
+      justify-content: center;
 }
-.Warning-Icon{
-      background-color: red;
+.Log-BonoFam{
+      background-color: green;
+      width: 300px;
+      height: 200px;
 }
 .cont-lblwarning{
       background-color: deeppink;
 }
+.Warning-Icon{
+      background-color: red;
+}
+li{
+      background-color: cyan;
+}
 
 .right{
       background-color: darkslategray;
-      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
 }
 .cont-consult{
       background-color: red;
+      margin-top: 5px;
       padding: 10px;
       font-size: 28px;
       font-family: sans-serif;
@@ -71,10 +108,9 @@ body{
       color: white;
 }
 .cont-instructions{
+      margin-top: 15px;
       background-color: bisque;
-      padding: 10px;
-      text-align: center;
-      
+      width: 500px;
 }
 .tuto{
       color: red;
@@ -121,6 +157,8 @@ body{
 .cont-down{
       background-color: purple;
       display: flex;
+      justify-content: space-between;
+      padding: 5px;
 }
 .cont-img-peru{
       background-color: darkturquoise;
